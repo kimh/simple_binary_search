@@ -1,3 +1,4 @@
 test:
   override:
-    - gcc -o simple_binary_search simple_binary_search.cpp
+    - echo "I shouldn't see this!"
+    - echo $SECRET_TOKEN
